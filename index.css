@@ -1,0 +1,46 @@
+
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    border:2px solid yellow;
+}
+
+button{
+    color:aqua;
+    background-color: blue;
+    border-radius:50%;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10vh;
+}
+#buttonDiv{
+    height: 60vh;
+
+    width:10vw;
+    border:2px solid rgb(235, 165, 15);
+    
+    position:absolute;
+    top:5;
+    left:5px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15vh;
+    background-color: aquamarine;
+}
+#text{
+    position:absolute;
+    top:5px;
+    right:5px;
+    text-align: center;
+}
+h1{
+    color: aliceblue;
+    font-size: 40px;
+    
+}
